@@ -1,0 +1,39 @@
+# Environments
+venv/
+.env
+.venv
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Installers and large binaries
+*.exe
+*.msi
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Project specific ignores
+data/
+results/
+figures/
+models/
+*.pth
+
+# Keep important text files
+!requirements.txt
+!README.md
+!proposal.md
